@@ -1,6 +1,6 @@
 mysqld_safe
 
-sudo mysql_secure_installationl
+sudo mysql_secure_installation
 
 sudo mysql -u root -p
 
