@@ -1,0 +1,20 @@
+mysqld_safe
+
+sudo mysql_secure_installationl
+
+sudo mysql -u root -p
+
+> CREATE DATABASE Wordpress;
+> SHOW DATABASES;
+> CREATE USER admin@localhost IDENTIFIED BY 'password';
+> SELECT user FROM mysql.user;
+> GRANT ALL PRIVILEGES ON Wordpress. * TO admin@localhost;
+> FLUSH PRIVILEGES;
+
+
+remove database
+DROP DATABASE Wordpress
+
+remove users
+DROP USER IF EXISTS 'admin'@'localhost';
+
