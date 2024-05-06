@@ -1,3 +1,4 @@
+sudo apt-get install mariadb-server php-mysql php apache2 -y 
 mysqld_safe
 
 sudo mysql_secure_installation
