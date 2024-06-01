@@ -16,13 +16,16 @@ sudo mysql -u root -p
 remove database
 DROP DATABASE Wordpress
 
+database folder
+USE wordpress
+
 remove users
 DROP USER IF EXISTS 'admin'@'localhost';
 
 phpmyadmin install
 
 #mysqld --skip-grant-tables --general-log &
-
+    USE 
     CREATE USER 'username'@'localhost' IDENTIFIED  BY 'password';
     GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'username'@'localhost' WITH GRANT OPTION;
     GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
